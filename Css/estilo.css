@@ -1,0 +1,149 @@
+.flechas{  
+  background-color: #337ab7;
+  border-radius: 17px;
+  border: 1px solid #fff;
+}
+
+.marg-text1{
+  position: absolute;
+  top:30%;
+  left: 22%;
+  right: 20%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+  animation-delay: 1s;
+}
+/* .marg-text1 h3{
+  font-size: em;
+  font-weight: bold;
+  margin: 0;
+  padding:0;
+
+} */
+
+.marg-text2{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  right: 15%;
+  padding-top: 28px;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  animation-delay: 1s;
+}
+
+.marg-btn{
+  position: absolute;
+  top: 64%;
+  left: 25%;
+  right: 25%;
+  z-index: 3;
+}
+
+.cubrir{
+  position: absolute;
+  background-color:#444;
+  opacity: .9;
+}
+ul{
+list-style: none;  
+}
+span{
+  color:#fed136;
+}
+
+.marg-acerca{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 28px;
+}
+.marg-img-acerca{
+  position: relative;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.img-acerca{
+  width: 100%
+}
+
+
+.marg-desc-acerca{
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.ul-pal{
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 4px;
+  font-size: 11px;
+  color: #3EC1D5;
+}
+
+.gris{
+  background: rgba(0, 0, 0, 0.959);
+}
+
+.top-nav-collapse{
+  background: rgb(0, 0, 0) !important;
+}
+
+.marg-titulo-servicios{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 28px;
+}
+.marg-icon-servicios{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    display: block;
+    
+}
+
+.cambio-color{
+  color:#212529;
+}
+.cambio-color:hover{
+  color:#3EC1D5;
+}
+
+.marg-text-servicios{
+  
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.marg-preguntas{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+#margen-subtitu-pre{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+.card-header{
+
+  background-color: #F58723;
+  line-height: 22px;
+}
+
+

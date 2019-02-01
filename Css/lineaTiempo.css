@@ -1,0 +1,166 @@
+
+.main-timeline{
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+/*Codigo de Linea*/
+.main-timeline:before{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100%;
+    background:#e9ecef;
+    margin: 0 0 0 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+
+.main-timeline .timeline{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.main-timeline .timeline:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-timeline .timeline-content{
+    width: 40%;
+    float: left;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
+    padding-left: 50px;
+}
+
+/*codigo de circulo*/
+.main-timeline .circulo{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%; 
+    margin: 0 0 0 -36px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    border: 2px solid #e9ecef(255,255,255,0.2);
+    box-shadow: 0 0 0 7px #e9ecef;
+    background-color:#fed136;
+}
+.main-timeline .circulo span{
+    display: block;
+    text-align: center;
+}
+.main-timeline .day,
+.main-timeline .year{
+    font-size: 10px;
+    color: red;
+}
+.main-timeline .month{
+
+    font-size: 13px;
+    padding-top: 12px;
+    color: #fff;
+}
+.main-timeline .title{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: black; 
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    margin-left: 0px;
+}
+.main-timeline .title2{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    color: black; 
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    margin-left: 0px;
+    text-align: end;
+}
+.main-timeline .title:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+.main-timeline .title2::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    transform: rotate(-45deg);
+}
+.main-timeline .description{
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+    color: #656565;
+    padding-left: 10px;
+    border-radius: 0 0 6px 6px;
+}
+.main-timeline .timeline:nth-child(2n+2) .timeline-content{
+    float: right;
+}
+.main-timeline .timeline:nth-child(2n+2) .title:after{
+    left: -5px;
+}
+
+
+@media only screen and (max-width: 990px){
+    .main-timeline{ width: 100%; }
+}
+@media only screen and (max-width: 767px){
+    .main-timeline:before,
+    .main-timeline .circulo{
+        left: 6%;
+    }
+    .main-timeline .timeline-content{
+        width: 85%;
+        float: right;
+    }
+    .main-timeline .title:after{
+        left: -6px;
+    }
+    .main-timeline .title2::after{
+        left: -6px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .main-timeline:before,
+    .main-timeline .circulo{
+        left: 12%;
+    }
+    .main-timeline .timeline-content{
+        width: 75%;
+    }
+
+    .main-timeline .circulo{
+        width: 100px;
+        height: 100px;
+        margin-left: -30px;
+    }
+    
+    .main-timeline .month{
+        font-size: 8px;
+    }
+}
