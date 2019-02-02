@@ -90,12 +90,8 @@ span{
   color: #3EC1D5;
 }
 
-.gris{
-  background: rgba(0, 0, 0, 0.959);
-}
-
-.top-nav-collapse{
-  background: rgb(0, 0, 0) !important;
+.bg-primary{
+  transition: all 1s ease;
 }
 
 .marg-titulo-servicios{

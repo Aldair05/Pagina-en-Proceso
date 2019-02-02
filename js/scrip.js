@@ -1,7 +1,7 @@
     $(window).scroll(function() {
         if ($("#menu").offset().top > 56) {
-            $("#menu").addClass("gris");
+            $("#menu").addClass("bg-primary");
         } else {
-            $("#menu").removeClass("gris");
+            $("#menu").removeClass("bg-primary");
         }
       });
