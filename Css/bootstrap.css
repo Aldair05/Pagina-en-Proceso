@@ -2758,7 +2758,7 @@ fieldset:disabled a.btn {
   background-image: none;
   border-color: #17a2b8;
   border-radius: 15px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .btn-outline-info:hover {
@@ -3930,6 +3930,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color:black;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -3955,8 +3956,8 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: red red red;
-  color: red;
+  border-color: #fff;
+   color: black; 
 }
 
 .nav-tabs .nav-link.disabled {
@@ -3967,8 +3968,8 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: red;
+  color: #3EC1D5;
+  background-color:#fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -6042,7 +6043,7 @@ button.close {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: -10px;
   left: 0;
   z-index: 15;
   display: -ms-flexbox;
