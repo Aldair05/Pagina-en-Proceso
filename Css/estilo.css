@@ -176,68 +176,6 @@ span{
   background-color: #f8f9fa;
 }
 
-.tamañoImg{
-  height: 10px;
-  width: 220px;
-}
- 
-.portafolio-item{
-  right:40px;
-  margin: 0 0 15px; 
-  display: flex;
-  flex-wrap: wrap;
-} 
-
-.portafolio-hover{
-  position: absolute;
-  max-width: 88%;
-  height: 88%;
-  left:0;
-  right: 0;
-  bottom:10px;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background:rgba(0,0,0,.75);
-  
-}
-.portafolio-hover:hover{
-  opacity: 1;
-}
-
-.portafolio-hover-contenido{
-  font-size: 20px;
-  position: absolute;
-  top:50%;
-  width: 100%;
-  height:20%;
-  margin-top: -12px;
-  text-align: center;
-  color:#fff;
-
-}
-
-
-.portafolio-nuevo{
-  position: absolute;
-  width: 88%;
-  height: 100%;
-  left:0;
-  right: 0;
-  bottom:0;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background:rgba(0,0,0,.75);
-}
-
-.portafolio-nuevo:hover{
-  opacity: 1;
-}
-
-
 
 #imagen{
   background-image: url(../imagenes/equipo1.jpg);
@@ -292,6 +230,7 @@ span{
 
 #imagen:hover #info{
   opacity: 1;
+  cursor: pointer;
 }
 
 #imagen2:hover #info{
@@ -311,8 +250,9 @@ span{
   position: absolute;
   font-size: 21px;
   color: #fff;
-  margin-left: 45%;
+  margin-left: 28%;
   margin-top: 50%;
+  z-index: 3;
 }
 
 .nombre-equipo{
@@ -330,4 +270,20 @@ span{
     padding-left: -10px;
     text-align: center;
     color: black;
+  }
+
+  .redes-sociales-equipo{
+    color: #3EC1D5;
+    font-size: 23px;
+    border-style: solid;
+    border-width: 1px;
+    width: 37px;
+    height: 38px;
+    text-align: center;
+    border-radius: 11px;
+  }
+
+  .redes-sociales-equipo:hover{
+    opacity: 1;
+    background-color: rgba(252, 253, 253, 0.979);
   }
