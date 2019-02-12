@@ -169,37 +169,38 @@ span{
 }
 
 .Galeria{
-  padding: 138px;
-/*   padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px; */
+  padding: 50px;
   position: relative;
+  top: 60px;
   text-align: center;  
   background-color: #f8f9fa;
 }
 
-
+.tamañoImg{
+  height: 10px;
+  width: 220px;
+}
  
 .portafolio-item{
-  right:0;
-  margin: 0 0 15px;
+  right:40px;
+  margin: 0 0 15px; 
   display: flex;
   flex-wrap: wrap;
 } 
 
 .portafolio-hover{
   position: absolute;
-  max-width: 87.6%;
-  height: 100%;
-  left:14px;
+  max-width: 88%;
+  height: 88%;
+  left:0;
   right: 0;
+  bottom:10px;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
   background:rgba(0,0,0,.75);
-  /* background: fade-out($primary, .1); */
+  
 }
 .portafolio-hover:hover{
   opacity: 1;
@@ -217,35 +218,116 @@ span{
 
 }
 
-@media(min-width:767px) {
-    .portafolio-item{
-      margin: 0 0 30px;
-    }
-  }
 
-  @media(min-width:480px){
-    .portafolio-item{
-      margin: 0 0 30px;
-    }
-  }
-
-  @media(min-device-width : 480px){
-    .portafolio-item{
-      width: 100%
-    }
+.portafolio-nuevo{
+  position: absolute;
+  width: 88%;
+  height: 100%;
+  left:0;
+  right: 0;
+  bottom:0;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background:rgba(0,0,0,.75);
 }
 
-  @media(max-width:600px){
-    .portafolio-item{
-      margin: 0 0 30px;
-    }
-  }
+.portafolio-nuevo:hover{
+  opacity: 1;
+}
+
+
+
+#imagen{
+  background-image: url(../imagenes/equipo1.jpg);
+  width: 250px;
+  height: 308px;
+  background-repeat: no-repeat;
+  margin: 0px;
+  margin-bottom: 100px;
+  
+}
+
+#imagen2{
+  background-image: url(../imagenes/equipo2.jpg);
+  width: 250px;
+  height: 308px;
+  background-repeat: no-repeat;
+  margin: 0px;
+  margin-bottom: 100px;
+}
+
+#imagen3{
+  background-image: url(../imagenes/equipo3.jpg);
+  width: 250px;
+  height: 308px;
+  background-repeat: no-repeat;
+  margin: 0px;
+  margin-bottom: 100px;
 
  
+}
+
+#imagen4{
+  background-image: url(../imagenes/equipo4.jpg);
+  width: 250px;
+  height: 308px;
+  background-repeat: no-repeat;
+  margin: 0px;
+  margin-bottom: 100px;
+}
 
 
 
+#info{
+  position: absolute;
+  width: 250px;
+  height: 308px;
+  left: 0;
+  background-color: rgba(0,0,0,.75);
+  -webkit-transition: opacity 0.2s;
+  opacity: 0;
+}
+
+#imagen:hover #info{
+  opacity: 1;
+}
+
+#imagen2:hover #info{
+  opacity: 1;
+}
+
+#imagen3:hover #info{
+  opacity: 1;
+}
+
+#imagen4:hover #info{
+  opacity: 1;
+}
 
 
+#letras{
+  position: absolute;
+  font-size: 21px;
+  color: #fff;
+  margin-left: 45%;
+  margin-top: 50%;
+}
 
+.nombre-equipo{
+    
+    position: absolute;
+    padding-top: 315px;
+    padding-left: 20px;
+    text-align: center;
+    color: black;
+  }
 
+  .nombre-equipo2{
+    position: absolute;
+    padding-top: 315px;
+    padding-left: -10px;
+    text-align: center;
+    color: black;
+  }
