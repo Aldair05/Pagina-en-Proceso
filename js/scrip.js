@@ -6,24 +6,6 @@
         }
       });
 
-/* (function(){
-    $(document).ready(function(){
-        $(".filter").(function(){
-            var filtro=$(this).attr("data-rel");
-
-            if(filtro=="all"){
-                $(".galeria").show(500);
-            } else{
-                $(".galeria").not("."+filtro).hide(500);
-                $(".galeria").filter("."+filtro).show(500);
-            }
-        });
-
-    });
-})
- */
-
-
 $(function() {
     var selectedClass = "";
     $(".filter").click(function(){
