@@ -292,6 +292,7 @@ span{
     position: absolute;
     margin-top: 30px;
     margin-bottom: 40px;
+    text-align: center;
   }
 
   .filter{
@@ -333,6 +334,10 @@ span{
     transform: scale(1);
   }
 
+  .tam-btn-galeria{
+    width: 53px;
+    font-size: 11px;
+  }
   @media(max-width:450px){
     .galeria{
       -webkit-column-count: 1;
@@ -411,3 +416,57 @@ span{
       height: 50px;
       font-size: 22px;
     }
+    .estilo-cont{
+      background-color: rgba(243, 245, 245, 0.781)
+    }
+
+    .marg-infor{
+      margin-top: 45px;
+      margin-top: 30px;
+    }
+    .marg-text-infor{
+      text-align: justify;
+      padding-left: 0px;
+      padding-right: 35px;
+      padding-top: 40px;
+    }
+    .marg-p-infor{
+      padding-top: 30px;
+    }
+
+    .marg-icon-infor{
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    .marg-h3{
+      text-align: center;
+    }
+    .border-icon-infor{
+      border-style: solid;
+      border-width: 1px;
+      position: relative;
+      width: 50px;
+      margin-right: 20px;
+      height: 48px;
+      border-radius: 27px;
+      text-align: center;
+      padding-top: 6px;
+      border-color: #3EC1D5;
+    }
+
+    .border-icon-infor:hover{
+      color: #3EC1D5;
+      background-color: #3EC1D5;
+    }
+    .tam-icon-infor{
+      font-size: 31px;
+      color: rgba(127, 129, 129, 0.781)
+    }
+
+    .marg-footer{
+      background-color: rgba(243, 245, 245, 0.781);
+      padding-top: 30px;
+      text-align: center;
+    }
+
