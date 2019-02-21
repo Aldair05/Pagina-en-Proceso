@@ -38,4 +38,13 @@ $('li a').click(function(e){
     },1000);
 
 });
+
+$('div .enlace').click(function(e){
+    e.preventDefault();
+    var strAncla=$(this).attr('href');
+    $('body,html').stop(true,true).animate({
+        scrollTop: $(strAncla).offset().top
+    },1000);
+});
+
 /*Fin de Funcion de transicion enlaces*/
