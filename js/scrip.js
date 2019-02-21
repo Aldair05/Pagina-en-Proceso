@@ -1,12 +1,16 @@
-    $(window).scroll(function() {
+
+/* Inicio de funcion de menu Navegador*/
+$(window).scroll(function() {
         if ($("#menu").offset().top > 56) {
             $("#menu").addClass("bg-primary");
         } else {
             $("#menu").removeClass("bg-primary");
         }
-      });
+});
+/*Fin de funcion de menu Navegador*/
 
-/*Funcion de filtrado Imagenes*/
+
+/* Inicio de Funcion de filtrado Imagenes*/
 $(function() {
     var selectedClass = "";
     $(".filter").click(function(){
@@ -21,10 +25,11 @@ $(function() {
             $("#galaeria").addClass('caja-galeria');
     }, 300);
 });
-}); 
+});
+
+/* FIn de Funcion de filtrado Imagenes*/
 
 /*Funcion de transicion enlaces*/
-
 $('li a').click(function(e){
     e.preventDefault();
     var strAncla=$(this).attr('href');
@@ -33,3 +38,4 @@ $('li a').click(function(e){
     },1000);
 
 });
+/*Fin de Funcion de transicion enlaces*/
