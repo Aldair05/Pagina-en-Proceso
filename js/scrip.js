@@ -25,15 +25,6 @@ $(function() {
 
 /*Funcion de transicion enlaces*/
 
-/* $('#acerca-de').click(function(){
-    event.preventDefault();
-    var ir=jQuery(this).attr('href');
-    var nueva_posicion= jQuery('#'+ir).offset();
-    window.scrollTo(nueva_posicion.left,nueva_posicion.top);
-    return false;
-});
- */
-
 $('li a').click(function(e){
     e.preventDefault();
     var strAncla=$(this).attr('href');
@@ -42,9 +33,3 @@ $('li a').click(function(e){
     },1000);
 
 });
-
-
-/* $('.galeria')
-    .on('mouseenter',function(){
-        $('.galeria').addClass('caja-galeria');
-    }); */
