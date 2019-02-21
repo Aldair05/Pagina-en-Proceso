@@ -17,15 +17,21 @@ $(function() {
     selectedClass = $(this).attr("data-rel");
             
             $("#galeria").fadeTo(100, 0.5);
-            $("#galeria div").not("."+selectedClass).fadeOut().removeClass('animation');
+            $("#galeria div").removeClass('animation').not("."+selectedClass).fadeOut();
             
     setTimeout(function() {
             $("."+selectedClass).fadeIn().addClass('animation');
             $("#galeria").fadeTo(300, 1);
-            $("#galaeria").addClass('caja-galeria');
+            
     }, 300);
+  });
 });
-});
+
+
+
+
+
+ 
 
 /* FIn de Funcion de filtrado Imagenes*/
 

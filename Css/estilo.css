@@ -330,19 +330,30 @@ h2{
 
   }
 
-  .caja-contenido{
-    position: absolute;
-    width:10%;
-    height: 10%;
-    background-color: rgba(0,0,0,.75);
-    -webkit-transition: opacity 0.2s;
-    opacity: 0;
-
+  .border-icon-infor{
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    width: 50px;
+    margin-right: 20px;
+    height: 48px;
+    border-radius: 27px;
+    text-align: center;
+    padding-top: 6px;
+    border-color: #3EC1D5;
+    
   }
-  .caja-portafolio:hover .caja-contenido{
-    opacity: 1;
 
+  .caja-galeria:hover .caja-portafolio{
+    color:#fff;
+    text-align: center;
+    font-family:'Lucida Sans';
+    font-size: 20px;
+    padding-top: 35%;
+    background-color: rgba(24, 24, 24, 0.795);
+    opacity:1 !important;
   }
+
   /* Fin Hover Portafolio*/
 
 
@@ -444,31 +455,17 @@ h2{
     .marg-h3{
       text-align: center;
     }
-    .border-icon-infor{
-      border-style: solid;
-      border-width: 1px;
-      position: relative;
-      width: 50px;
-      margin-right: 20px;
-      height: 48px;
-      border-radius: 27px;
-      text-align: center;
-      padding-top: 6px;
-      border-color: #3EC1D5;
-    }
+  
 
-    .caja-galeria:hover .caja-portafolio{
-      color:#fff;
-      text-align: center;
-      font-family:'Lucida Sans';
-      font-size: 20px;
-      padding-top: 35%;
-      background-color: rgba(24, 24, 24, 0.795);
-      opacity:1;
-    }
     .tam-icon-infor{
       font-size: 31px;
-      color: rgba(127, 129, 129, 0.781)
+      color: rgba(127, 129, 129, 0.781);
+      
+    }
+
+    .border-icon-infor:hover{
+      opacity: 1;
+      background-color: #3EC1D5;
     }
 
     .marg-footer{
