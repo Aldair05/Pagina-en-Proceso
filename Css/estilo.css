@@ -16,13 +16,7 @@
   text-shadow: 1px 1px 0 rgba(0,0,0,.75);
   animation-delay: 1s;
 }
-/* .marg-text1 h3{
-  font-size: em;
-  font-weight: bold;
-  margin: 0;
-  padding:0;
 
-} */
 
 .marg-text2{
   position: absolute;
@@ -57,11 +51,12 @@ span{
   color:#fed136;
 }
 
-.marg-acerca{
+h2{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 45px;
   padding-bottom: 28px;
 }
+
 .marg-img-acerca{
   position: relative;
   padding-left: 55px;
@@ -94,11 +89,7 @@ span{
   transition: all 1s ease;
 }
 
-.marg-titulo-servicios{
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 28px;
-}
+
 .marg-icon-servicios{
     font-size: 30px;
     text-align: center;
@@ -128,14 +119,6 @@ span{
 
 }
 
-#margen-subtitu-pre{
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  
-}
 .card-header{
 
   background-color: #F58723;
@@ -302,11 +285,6 @@ span{
     margin: 1px;
   }
 
-  .marg-portafolio{
-    text-align: center;
-    padding-bottom: 30px;
-    padding-top: 40px;
-  }
 
   .galeria{
     -webkit-column-count: 3;
@@ -334,10 +312,40 @@ span{
     transform: scale(1);
   }
 
+
   .tam-btn-galeria{
     width: 53px;
     font-size: 11px;
   }
+
+  /* Hover Portafolio*/
+  .caja-portafolio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+    -webkit-transition: opacity 0.2s;
+    opacity: 0;
+
+  }
+
+  .caja-contenido{
+    position: absolute;
+    width:10%;
+    height: 10%;
+    background-color: rgba(0,0,0,.75);
+    -webkit-transition: opacity 0.2s;
+    opacity: 0;
+
+  }
+  .caja-portafolio:hover .caja-contenido{
+    opacity: 1;
+
+  }
+  /* Fin Hover Portafolio*/
+
+
+
   @media(max-width:450px){
     .galeria{
       -webkit-column-count: 1;
@@ -373,16 +381,9 @@ span{
 
   @media (max-width: 400px) {
     .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-    }
-    }
-
-
-    .marg-titulo-contact{
-      text-align: center;
-      padding-bottom: 30px;
-      padding-top: 40px;
+       padding-left: 1.1rem;
+       padding-right: 1.1rem;
+      }
     }
 
     .marg-caja-contactos{
@@ -393,7 +394,6 @@ span{
 
     .tama-icono-cont{
       font-size: 30px;
-      /* padding-bottom: 30px; */
       padding-top: 7px;
       border-style: solid;
       border-width: 1px;
@@ -432,6 +432,7 @@ span{
     }
     .marg-p-infor{
       padding-top: 30px;
+      text-align: center;
     }
 
     .marg-icon-infor{
@@ -455,9 +456,14 @@ span{
       border-color: #3EC1D5;
     }
 
-    .border-icon-infor:hover{
-      color: #3EC1D5;
-      background-color: #3EC1D5;
+    .caja-galeria:hover .caja-portafolio{
+      color:#fff;
+      text-align: center;
+      font-family:'Lucida Sans';
+      font-size: 20px;
+      padding-top: 35%;
+      background-color: rgba(24, 24, 24, 0.795);
+      opacity:1;
     }
     .tam-icon-infor{
       font-size: 31px;
@@ -470,3 +476,5 @@ span{
       text-align: center;
     }
 
+
+  
