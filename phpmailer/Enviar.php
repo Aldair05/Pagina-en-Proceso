@@ -26,7 +26,7 @@
             $mail->Host = 'smtp.gmail.com';                       // servicio de correo  que se va utilizar 
             $mail->SMTPAuth = true;                               // 
             $mail->Username = 'aldair.uaem@gmail.com';          // correo desde donde se va enviar el correo 
-            $mail->Password = 'kiderzom05';                      // contraseña 
+            $mail->Password = '*****';                      // contraseña 
             $mail->SMTPSecure = 'tls';                            // 
             $mail->Port = 587;                                    // 
             //Recipients
