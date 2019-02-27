@@ -44,6 +44,12 @@
   background-color:#444;
   opacity: .9;
 }
+
+.font-nadvar{
+  font-family:'Aclonica', sans-serif;
+
+}
+
 ul{
 list-style: none;  
 }
@@ -55,7 +61,9 @@ h2{
   text-align: center;
   padding-top: 45px;
   padding-bottom: 28px;
-  font-family:'El Messiri';
+  font-family: 'Taviraj', serif;
+
+
 }
 
 .marg-img-acerca{
@@ -90,6 +98,9 @@ h2{
   transition: all 1s ease;
 }
 
+.font-mante{
+  font-family: 'Open Sans', sans-serif;
+}
 
 .marg-icon-servicios{
     font-size: 30px;
@@ -113,11 +124,12 @@ h2{
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 .marg-preguntas{
   padding-top: 30px;
   padding-bottom: 30px;
-
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-header{
@@ -445,6 +457,7 @@ h2{
     .marg-p-infor{
       padding-top: 30px;
       text-align: center;
+      font-family: 'Open Sans', sans-serif;
     }
 
     .marg-icon-infor{

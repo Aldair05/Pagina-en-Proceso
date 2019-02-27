@@ -4019,6 +4019,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color:rgba(0, 0, 0, 0.40);
+  font-family: 'Aclonica', sans-serif;
 }
 
 .navbar > .container,
@@ -4055,6 +4056,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  font-family: 'Aclonica', sans-serif;
 }
 
 .navbar-nav .nav-link {

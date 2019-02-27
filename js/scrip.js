@@ -22,7 +22,7 @@ $(function() {
     setTimeout(function() {
             $("."+selectedClass).fadeIn().addClass('animation');
             $("#galeria").fadeTo(300, 1);
-            
+            $(this).addClass('active').siblings().removeClass('active');
     }, 300);
   });
 });
